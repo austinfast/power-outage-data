@@ -2,11 +2,20 @@ import requests
 import csv
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+# from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 import json
 
-driver = webdriver.Chrome()
+from selenium.webdriver.chrome.options import Options
+
+d = DesiredCapabilities.CHROME
+d['loggingPrefs'] = { 'performance':'ALL' }
+
+chrome_options = Options()
+chrome_options.add_experimental_option('w3c', False)
+
+driver = webdriver.Chrome(desired_capabilities=d, options=chrome_options)
+#driver = webdriver.Chrome()
 driver.get("https://outagemap.alabamapower.com/")
 time.sleep(5)
 
