@@ -10,6 +10,8 @@ mercantile==1.1.2
 polyline==1.4.0
 python-dotenv==0.10.3
 requests==2.22.0
+setuptools==0.7.3 
+# ^^^ADDED to fix?https://stackoverflow.com/questions/22998190/push-rejected-failed-to-compile-python-app
 sqlite-utils~=1.11
 six==1.13.0
 urllib3==1.25.8
