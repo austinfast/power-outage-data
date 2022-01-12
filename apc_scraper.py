@@ -1,3 +1,6 @@
+import requests
+import pandas as pd
+
 from kubra_scraper import KubraScraper
 
 
