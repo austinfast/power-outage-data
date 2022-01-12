@@ -30,4 +30,4 @@ jobs:
         curl https://cli-assets.heroku.com/install.sh | sh
         python build_database.py apc/outages.db
         heroku plugins:install heroku-builds
-        datasette publish heroku --name=apc-outage --install=datasette-cluster-map --install=datasette-vega apc/outages.db
+        datasette publish heroku --name=apc-outages --install=datasette-cluster-map --install=datasette-vega apc/outages.db
