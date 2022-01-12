@@ -31,6 +31,7 @@ logs5 = logs4.split("public/summary-1/data.json")
 url_id = logs5[0]
 #Example: "https://kubra.io/data/645393b1-4699-4049-93e6-2932351f7dc4/public/summary-1/data.json"
 url = f'https://kubra.io/{url_id}public/summary-1/data.json'
+print (url)
 
 req = requests.get(url)
 data = req.json()
