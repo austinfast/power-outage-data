@@ -2,7 +2,6 @@ import mercantile
 import polyline
 import requests
 from dotenv import load_dotenv
-import pandas as pd
 
 from base_scraper import DeltaScraper
 
@@ -199,23 +198,3 @@ class KubraScraper(DeltaScraper):
     @staticmethod
     def _get_tile_for_quadkey(quadkey):
         return mercantile.quadkey_to_tile(quadkey)
-
-#Save summary file
-### data = self._make_request(self.data_url).json()
-#req = requests.get(data_url)
-#data = req.json()
-### df = pd.DataFrame.from_dict(data)
-### df = df['summaryFileData'].apply(pd.Series)
-### df_p = df[0].apply(pd.Series)
-#Pull out this moment's summary data
-### this_row = df_p.iloc[[4]] 
-#Pull out timestamp
-### date = str(df_p.iloc[0,0])
-#Add timestamp column
-### this_row = this_row.assign(timestamp=[date])
-#Pull out number of customers affected
-### this_row['customers_affected'] = this_row['total_cust_a']['totals']['val']
-#Rearrange columns and remove columns "total_cust_a" + "0" 
-### df2 = this_row[['timestamp', 'customers_affected', 'total_cust_s', 'total_outages', 'summaryTotalId']]
-#Save file
-### df2.to_csv("./apc/summary.csv", mode='a', index=False, header=True)
