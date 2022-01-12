@@ -1,4 +1,4 @@
-name: CI
+name: Selenium summary
 on:
   push:
   workflow_dispatch:
@@ -27,3 +27,22 @@ jobs:
         DISPLAY: :99
       run: |
         python apc/summary_scraper.py
+        
+    - name: commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git commit -m "update data" -a
+        #git add --all
+        #git commit -am "Latest data: $(date)"
+        #git push origin main
+      #env:
+      #  REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+      #  username: github-actions
+
+    - name: push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
