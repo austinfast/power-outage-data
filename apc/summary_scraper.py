@@ -2,7 +2,7 @@ import requests
 import csv
 import pandas as pd
 from selenium import webdriver
-# from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 import json
 
