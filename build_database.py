@@ -162,7 +162,7 @@ INSERT INTO outages_expanded SELECT
   outage,
   min(snapshots.[when]) as earliest,
   max(snapshots.[when]) as latest,
-  json_object("href", "https://apc-outage.herokuapp.com/outages/outage_snapshots?outage=" || outage, "label", count(outage_snapshots.id)) as num_snapshots,
+  json_object("href", "https://apc-outages.herokuapp.com/outages/outage_snapshots?outage=" || outage, "label", count(outage_snapshots.id)) as num_snapshots,
   round(cast(max(snapshots.[when]) - min(snapshots.[when]) as float) / 3600, 2) as possible_duration_hours,
   outage not in (select outage from most_recent_snapshot) as probably_ended,
   min(outage_snapshots.estCustAffected) as min_estCustAffected,
