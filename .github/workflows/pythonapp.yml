@@ -27,3 +27,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         python scrape_all.py
+        python apc_summary.py
