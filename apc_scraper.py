@@ -1,10 +1,10 @@
 from kubra_scraper import KubraScraper
 
 
-class LGEKUScraper(KubraScraper):
+class APCScraper(KubraScraper):
     owner = "austinfast"
     repo = "power-outage-data"
-    filepath = "lgeku/outages.json"
+    filepath = "apc/outages.json"
 
     instance_id = "7636a60f-7b81-4fb0-a30d-ed79a8e271e7"
     view_id = "c3471c92-6e1b-494b-a884-391139a2cc18"
