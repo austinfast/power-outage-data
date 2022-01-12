@@ -30,7 +30,7 @@ jobs:
         python build_database.py apc/outages.db
         heroku plugins:install heroku-builds
         heroku buildpacks
-        heroku buildpacks:clear
-        heroku buildpacks:add heroku/python
-        heroku buildpacks
+        #heroku buildpacks:clear
+        #heroku buildpacks:add heroku/python
+        #heroku buildpacks
         datasette publish heroku --name=apc-outages --install=datasette-cluster-map --install=datasette-vega apc/outages.db
