@@ -10,22 +10,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: node:14.4
-      options: --network-alias testHost
-    env:
-      NODE_ENV: test
-      SELENIUM_HUB_HOST: hub
-      TEST_HOST: testHost
-    services:
-      hub:
-        image: selenium/hub:3.141.59-gold
-      firefox:
-        image: selenium/node-firefox:3.141.59-gold
-        env:
-          HUB_HOST: hub
-          HUB_PORT: 4444
-
     steps:
     - uses: actions/checkout@v1
     - name: Set up Python 3.7
@@ -41,4 +25,3 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         python scrape_all.py
-        python apc_summary.py
