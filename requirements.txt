@@ -11,7 +11,7 @@ polyline==1.4.0
 python-dotenv==0.10.3
 sqlite-utils~=1.11
 six==1.13.0
-urllib3==1.25.8
+urllib3     #==1.25.8 <<orig, but causes conflicts?
 pandas==1.3.5
 requests      #==2.22.0
 selenium==4.1.0
