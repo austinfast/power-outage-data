@@ -52,5 +52,5 @@ this_row['customers_affected'] = this_row['total_cust_a']['totals']['val']
 df2 = this_row[['timestamp', 'customers_affected', 'total_cust_s', 'total_outages', 'summaryTotalId']]
 
 #df2.to_csv('./apc/summary.csv', mode='a', index=False, header=True)
-df2.to_csv('summary.csv', mode='a', index=False, header=False)
+df2.to_csv('apc/summary.csv', mode='a', index=False, header=False)
 
