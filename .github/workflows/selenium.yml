@@ -1,7 +1,7 @@
 name: Selenium summary
 
 on:
-  push:
+  #push:
   schedule:
     - cron:  '*/15 * * * *'
   workflow_dispatch:
