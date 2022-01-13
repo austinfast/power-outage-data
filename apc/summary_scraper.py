@@ -51,4 +51,6 @@ this_row['customers_affected'] = this_row['total_cust_a']['totals']['val']
 #Rearrange columns and remove columns "total_cust_a" + "0" 
 df2 = this_row[['timestamp', 'customers_affected', 'total_cust_s', 'total_outages', 'summaryTotalId']]
 
-df2.to_csv('./apc/summary.csv', mode='a', index=False, header=True)
+#df2.to_csv('./apc/summary.csv', mode='a', index=False, header=True)
+df2.to_csv('summary.csv', mode='a', index=False, header=False)
+
