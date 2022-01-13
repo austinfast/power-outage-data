@@ -46,11 +46,16 @@ this_row = df_p.iloc[[4]]
 date = str(df_p.iloc[0,0])
 #Add timestamp column
 this_row = this_row.assign(timestamp=[date])
+#Convert to datetime
+this_row['timestamp'] = pd.to_datetime(this_row['timestamp'], format = '%Y-%m-%d %H:%M:%S', errors ='coerce')
+#Convert to EST
+this_row['timestamp'] = this_row['timestamp'].dt.tz_convert('US/Eastern')
+
 #Pull out number of customers affected
 this_row['customers_affected'] = this_row['total_cust_a']['totals']['val']
 #Rearrange columns and remove columns "total_cust_a" + "0" 
 df2 = this_row[['timestamp', 'customers_affected', 'total_cust_s', 'total_outages', 'summaryTotalId']]
 
-#df2.to_csv('./apc/summary.csv', mode='a', index=False, header=True)
-df2.to_csv('apc/summary.csv', mode='a', index=False, header=False)
+df2.to_csv('./apc/summary.csv', mode='a', index=False, header=True)
+#df2.to_csv('apc/summary.csv', mode='a', index=False, header=False)
 
