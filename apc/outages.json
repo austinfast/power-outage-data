@@ -1,20 +1,5 @@
 [
   {
-    "id": "0253427759",
-    "etr": "2022-01-25T12:00:00Z",
-    "etrConfidence": null,
-    "cluster": false,
-    "comments": "Field personnel are on site evaluating the outage in your area. The cause of the outage is not yet determined. Your estimated repair time for this location is currently Jan 25, 2022, 6:00 AM Central.",
-    "cause": null,
-    "numberOut": 1,
-    "custAffected": 34,
-    "crewStatus": null,
-    "startTime": null,
-    "latitude": 30.66403,
-    "longitude": -88.10816,
-    "source": "https://kubra.io/cluster-data/103/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/0320200301.json"
-  },
-  {
     "id": "0253427746",
     "etr": "ETR-EXP",
     "etrConfidence": null,
@@ -27,7 +12,22 @@
     "startTime": null,
     "latitude": 30.71907,
     "longitude": -88.10528,
-    "source": "https://kubra.io/cluster-data/103/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/0320200301.json"
+    "source": "https://kubra.io/cluster-data/101/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/032020030101.json"
+  },
+  {
+    "id": "0253427751",
+    "etr": "2022-01-25T13:30:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "Lightning has caused outages in your area. Your estimated repair time for this location is currently Jan 25, 2022, 7:30 AM Central.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 4,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 30.69662,
+    "longitude": -88.15806,
+    "source": "https://kubra.io/cluster-data/001/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/032020030100.json"
   },
   {
     "id": "0253427754",
@@ -42,7 +42,7 @@
     "startTime": null,
     "latitude": 30.70542,
     "longitude": -88.17166,
-    "source": "https://kubra.io/cluster-data/030/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/032020030.json"
+    "source": "https://kubra.io/cluster-data/001/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/032020030100.json"
   },
   {
     "id": "0253427767",
@@ -57,7 +57,7 @@
     "startTime": null,
     "latitude": 32.58733,
     "longitude": -85.5186,
-    "source": "https://kubra.io/cluster-data/033/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/032002330.json"
+    "source": "https://kubra.io/cluster-data/033/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/032002330.json"
   },
   {
     "id": "0243427643",
@@ -72,7 +72,7 @@
     "startTime": null,
     "latitude": 32.6339,
     "longitude": -85.46617,
-    "source": "https://kubra.io/cluster-data/033/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/032002330.json"
+    "source": "https://kubra.io/cluster-data/033/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/032002330.json"
   },
   {
     "id": "0243427649",
@@ -87,7 +87,7 @@
     "startTime": null,
     "latitude": 33.3943,
     "longitude": -86.61092,
-    "source": "https://kubra.io/cluster-data/320/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/0320023023.json"
+    "source": "https://kubra.io/cluster-data/320/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/0320023023.json"
   },
   {
     "id": "0253427768",
@@ -102,7 +102,7 @@
     "startTime": null,
     "latitude": 33.44916,
     "longitude": -86.82649,
-    "source": "https://kubra.io/cluster-data/120/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/0320023021.json"
+    "source": "https://kubra.io/cluster-data/120/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/0320023021.json"
   },
   {
     "id": "0243427607",
@@ -117,7 +117,7 @@
     "startTime": null,
     "latitude": 33.54557,
     "longitude": -86.74998,
-    "source": "https://kubra.io/cluster-data/120/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/0320023021.json"
+    "source": "https://kubra.io/cluster-data/120/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/0320023021.json"
   },
   {
     "id": "0253427772",
@@ -132,6 +132,6 @@
     "startTime": null,
     "latitude": 33.49774,
     "longitude": -86.72258,
-    "source": "https://kubra.io/cluster-data/120/5182a906-9bd4-45db-9507-dd11d2e3ae0c/07e91290-027c-4df2-8ffb-712e98363726/public/cluster-1/0320023021.json"
+    "source": "https://kubra.io/cluster-data/120/5182a906-9bd4-45db-9507-dd11d2e3ae0c/1c00bd65-c5cf-4577-8cac-b1670bd93828/public/cluster-1/0320023021.json"
   }
 ]
