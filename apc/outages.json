@@ -4,7 +4,7 @@
     "etr": "2022-01-28T06:00:00Z",
     "etrConfidence": null,
     "cluster": false,
-    "comments": "Field personnel are on their way to evaluate the outage in your area. Your estimated repair time for this location is currently Jan 28, 2022, 12:00 AM Central. As the outage is evaluated, this message will be updated.",
+    "comments": "Field personnel are on site evaluating the outage in your area. The cause of the outage is not yet determined. Your estimated repair time for this location is currently Jan 28, 2022, 12:00 AM Central.",
     "cause": null,
     "numberOut": 1,
     "custAffected": 4,
@@ -12,7 +12,22 @@
     "startTime": null,
     "latitude": 30.48413,
     "longitude": -88.26967,
-    "source": "https://kubra.io/cluster-data/002/5182a906-9bd4-45db-9507-dd11d2e3ae0c/c4f06b83-b8e5-4d48-8ce1-18facc4facf2/public/cluster-1/0320200.json"
+    "source": "https://kubra.io/cluster-data/002/5182a906-9bd4-45db-9507-dd11d2e3ae0c/eae0e8aa-6a80-4d1d-9b74-b2927f6ba54d/public/cluster-1/0320200.json"
+  },
+  {
+    "id": "0273430542",
+    "etr": "2022-01-28T08:00:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "We show your power is out at this location. Your estimated repair time is currently Jan 28, 2022, 2:00 AM Central. We are working to identify the problem.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 4,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 33.51982,
+    "longitude": -86.83733,
+    "source": "https://kubra.io/cluster-data/320/5182a906-9bd4-45db-9507-dd11d2e3ae0c/eae0e8aa-6a80-4d1d-9b74-b2927f6ba54d/public/cluster-1/0320023.json"
   },
   {
     "id": "0273430540",
@@ -27,6 +42,6 @@
     "startTime": null,
     "latitude": 33.7594,
     "longitude": -88.12449,
-    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/c4f06b83-b8e5-4d48-8ce1-18facc4facf2/public/cluster-1/0320022.json"
+    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/eae0e8aa-6a80-4d1d-9b74-b2927f6ba54d/public/cluster-1/0320022.json"
   }
 ]
