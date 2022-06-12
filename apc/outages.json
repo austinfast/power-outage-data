@@ -1,20 +1,5 @@
 [
   {
-    "id": "1633633019",
-    "etr": "2022-06-12T09:30:00Z",
-    "etrConfidence": null,
-    "cluster": false,
-    "comments": "Field personnel are on site evaluating the outage in your area. The cause of the outage is not yet determined. Your estimated repair time for this location is currently Jun 12, 2022, 4:30 AM Central.",
-    "cause": null,
-    "numberOut": 1,
-    "custAffected": 4,
-    "crewStatus": null,
-    "startTime": null,
-    "latitude": 30.69865,
-    "longitude": -88.04469,
-    "source": "https://kubra.io/cluster-data/002/5182a906-9bd4-45db-9507-dd11d2e3ae0c/614951a2-be4e-4fc9-ad93-ffd507344028/public/cluster-1/0320200.json"
-  },
-  {
     "id": "1623632700",
     "etr": "2022-06-13T18:00:00Z",
     "etrConfidence": null,
@@ -27,29 +12,29 @@
     "startTime": null,
     "latitude": 32.32755,
     "longitude": -86.34023,
-    "source": "https://kubra.io/cluster-data/232/5182a906-9bd4-45db-9507-dd11d2e3ae0c/614951a2-be4e-4fc9-ad93-ffd507344028/public/cluster-1/03200232.json"
+    "source": "https://kubra.io/cluster-data/232/5182a906-9bd4-45db-9507-dd11d2e3ae0c/d365f0ac-98d5-4359-86da-669f64bd5169/public/cluster-1/03200232.json"
   },
   {
-    "id": "1623632899",
-    "etr": "2022-06-12T08:30:00Z",
+    "id": "1633633055",
+    "etr": "2022-06-12T11:00:00Z",
     "etrConfidence": null,
     "cluster": false,
-    "comments": "We are repairing equipment in your area. Your estimated repair time for this location is currently Jun 12, 2022, 3:30 AM Central.",
+    "comments": "Field personnel have been assigned to evaluate the outage in your area. Your estimated repair time for this location is currently Jun 12, 2022, 6:00 AM Central. As the outage is evaluated, this message will be updated. ",
     "cause": null,
     "numberOut": 1,
-    "custAffected": 4,
+    "custAffected": 8,
     "crewStatus": null,
     "startTime": null,
-    "latitude": 34.17717,
-    "longitude": -86.54781,
-    "source": "https://kubra.io/cluster-data/032/5182a906-9bd4-45db-9507-dd11d2e3ae0c/614951a2-be4e-4fc9-ad93-ffd507344028/public/cluster-1/03200230.json"
+    "latitude": 34.35185,
+    "longitude": -87.85541,
+    "source": "https://kubra.io/cluster-data/020/5182a906-9bd4-45db-9507-dd11d2e3ae0c/d365f0ac-98d5-4359-86da-669f64bd5169/public/cluster-1/0320020.json"
   },
   {
     "id": "1633633054",
     "etr": "2022-06-12T10:30:00Z",
     "etrConfidence": null,
     "cluster": false,
-    "comments": "Field personnel have been assigned to evaluate the outage in your area. Your estimated repair time for this location is currently Jun 12, 2022, 5:30 AM Central. As the outage is evaluated, this message will be updated. ",
+    "comments": "Field personnel are on their way to evaluate the outage in your area. Your estimated repair time for this location is currently Jun 12, 2022, 5:30 AM Central. As the outage is evaluated, this message will be updated.",
     "cause": null,
     "numberOut": 1,
     "custAffected": 29,
@@ -57,14 +42,14 @@
     "startTime": null,
     "latitude": 33.90124,
     "longitude": -87.31194,
-    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/614951a2-be4e-4fc9-ad93-ffd507344028/public/cluster-1/0320022.json"
+    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/d365f0ac-98d5-4359-86da-669f64bd5169/public/cluster-1/0320022.json"
   },
   {
     "id": "1633633018",
-    "etr": "2022-06-12T10:30:00Z",
+    "etr": "2022-06-12T11:00:00Z",
     "etrConfidence": null,
     "cluster": false,
-    "comments": "We show your power is out at this location. Your estimated repair time is currently Jun 12, 2022, 5:30 AM Central. We are working to identify the problem.",
+    "comments": "A fallen tree has caused an outage in your area. We are working to restore power as quickly and safely as possible. Your estimated repair time for this location is currently Jun 12, 2022, 6:00 AM Central.",
     "cause": null,
     "numberOut": 1,
     "custAffected": 17,
@@ -72,7 +57,22 @@
     "startTime": null,
     "latitude": 33.33226,
     "longitude": -87.51892,
-    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/614951a2-be4e-4fc9-ad93-ffd507344028/public/cluster-1/0320022.json"
+    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/d365f0ac-98d5-4359-86da-669f64bd5169/public/cluster-1/0320022.json"
+  },
+  {
+    "id": "1633633057",
+    "etr": "2022-06-12T11:00:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "We show your power is out at this location. Your estimated repair time is currently Jun 12, 2022, 6:00 AM Central. We are working to identify the problem.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 4,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 32.46527,
+    "longitude": -87.39195,
+    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/d365f0ac-98d5-4359-86da-669f64bd5169/public/cluster-1/0320022.json"
   },
   {
     "id": "1623632867",
@@ -87,7 +87,7 @@
     "startTime": null,
     "latitude": 33.38021,
     "longitude": -86.80054,
-    "source": "https://kubra.io/cluster-data/032/5182a906-9bd4-45db-9507-dd11d2e3ae0c/614951a2-be4e-4fc9-ad93-ffd507344028/public/cluster-1/03200230.json"
+    "source": "https://kubra.io/cluster-data/032/5182a906-9bd4-45db-9507-dd11d2e3ae0c/d365f0ac-98d5-4359-86da-669f64bd5169/public/cluster-1/03200230.json"
   },
   {
     "id": "1623632786",
@@ -102,7 +102,7 @@
     "startTime": null,
     "latitude": 33.52851,
     "longitude": -86.72453,
-    "source": "https://kubra.io/cluster-data/032/5182a906-9bd4-45db-9507-dd11d2e3ae0c/614951a2-be4e-4fc9-ad93-ffd507344028/public/cluster-1/03200230.json"
+    "source": "https://kubra.io/cluster-data/032/5182a906-9bd4-45db-9507-dd11d2e3ae0c/d365f0ac-98d5-4359-86da-669f64bd5169/public/cluster-1/03200230.json"
   },
   {
     "id": "1623632906",
@@ -117,6 +117,6 @@
     "startTime": null,
     "latitude": 33.67612,
     "longitude": -86.69662,
-    "source": "https://kubra.io/cluster-data/320/5182a906-9bd4-45db-9507-dd11d2e3ae0c/614951a2-be4e-4fc9-ad93-ffd507344028/public/cluster-1/0320023.json"
+    "source": "https://kubra.io/cluster-data/320/5182a906-9bd4-45db-9507-dd11d2e3ae0c/d365f0ac-98d5-4359-86da-669f64bd5169/public/cluster-1/0320023.json"
   }
 ]
