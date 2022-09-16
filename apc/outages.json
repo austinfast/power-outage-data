@@ -7,12 +7,12 @@
     "comments": "A vehicle accident has caused an outage in your area. We are working to restore power as quickly and safely as possible. Your estimated repair time for this location is currently Sep 16, 2022, 7:00 AM Central.",
     "cause": null,
     "numberOut": 1,
-    "custAffected": 330,
+    "custAffected": 329,
     "crewStatus": null,
     "startTime": null,
     "latitude": 32.33828,
     "longitude": -86.25322,
-    "source": "https://kubra.io/cluster-data/303/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/0320023230303.json"
+    "source": "https://kubra.io/cluster-data/303/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320023230303.json"
   },
   {
     "id": "2593808811",
@@ -27,7 +27,22 @@
     "startTime": null,
     "latitude": 32.33912,
     "longitude": -86.26024,
-    "source": "https://kubra.io/cluster-data/303/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/0320023230303.json"
+    "source": "https://kubra.io/cluster-data/303/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320023230303.json"
+  },
+  {
+    "id": "2593808817",
+    "etr": "2022-09-16T13:00:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "Field personnel are on site evaluating the outage in your area. The cause of the outage is not yet determined. Your estimated repair time for this location is currently Sep 16, 2022, 8:00 AM Central.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 469,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 33.58677,
+    "longitude": -86.29271,
+    "source": "https://kubra.io/cluster-data/320/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320023.json"
   },
   {
     "id": "2583808654",
@@ -42,22 +57,7 @@
     "startTime": null,
     "latitude": 33.75749,
     "longitude": -88.11747,
-    "source": "https://kubra.io/cluster-data/122/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/03200221.json"
-  },
-  {
-    "id": "ebloEd{zwO-None",
-    "etr": "2022-09-16T12:00:00Z",
-    "etrConfidence": null,
-    "cluster": true,
-    "comments": null,
-    "cause": null,
-    "numberOut": 2,
-    "custAffected": 5,
-    "crewStatus": null,
-    "startTime": null,
-    "latitude": 34.14579,
-    "longitude": -87.96099,
-    "source": "https://kubra.io/cluster-data/001/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/03200221013100.json"
+    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320022.json"
   },
   {
     "id": "2593808772",
@@ -72,7 +72,7 @@
     "startTime": null,
     "latitude": 33.19745,
     "longitude": -87.59026,
-    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/0320022.json"
+    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320022.json"
   },
   {
     "id": "2583808539",
@@ -87,29 +87,14 @@
     "startTime": null,
     "latitude": 33.3777,
     "longitude": -87.20755,
-    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/0320022.json"
-  },
-  {
-    "id": "2593808774",
-    "etr": "ETR-EXP",
-    "etrConfidence": null,
-    "cluster": false,
-    "comments": "Field personnel are on site evaluating the outage in your area. The cause of the outage is not yet determined. Your estimated repair time for this location is currently unavailable.",
-    "cause": null,
-    "numberOut": 1,
-    "custAffected": 4,
-    "crewStatus": null,
-    "startTime": null,
-    "latitude": 33.40141,
-    "longitude": -86.80038,
-    "source": "https://kubra.io/cluster-data/032/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/03200230230.json"
+    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320022.json"
   },
   {
     "id": "2593808783",
-    "etr": "2022-09-16T10:30:00Z",
+    "etr": "ETR-EXP",
     "etrConfidence": null,
     "cluster": false,
-    "comments": "We show your power is out at this location. Your estimated repair time is currently Sep 16, 2022, 5:30 AM Central. We are working to identify the problem.",
+    "comments": "We show your power is out at this location. Your estimated repair time is currently unavailable. We are working to identify the problem.",
     "cause": null,
     "numberOut": 1,
     "custAffected": 4,
@@ -117,7 +102,37 @@
     "startTime": null,
     "latitude": 33.46588,
     "longitude": -86.90785,
-    "source": "https://kubra.io/cluster-data/302/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/03200230203.json"
+    "source": "https://kubra.io/cluster-data/302/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/03200230203.json"
+  },
+  {
+    "id": "a|wkEhhypO-None",
+    "etr": "2022-09-16T12:30:00Z",
+    "etrConfidence": null,
+    "cluster": true,
+    "comments": null,
+    "cause": null,
+    "numberOut": 2,
+    "custAffected": 4,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 33.55089,
+    "longitude": -86.80597,
+    "source": "https://kubra.io/cluster-data/300/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/03200230212003.json"
+  },
+  {
+    "id": "2593808925",
+    "etr": "2022-09-16T13:00:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "We show your power is out at this location. Your estimated repair time is currently Sep 16, 2022, 8:00 AM Central. We are working to identify the problem.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 4,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 33.61911,
+    "longitude": -86.68907,
+    "source": "https://kubra.io/cluster-data/032/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/03200230.json"
   },
   {
     "id": "2593808776",
@@ -132,7 +147,7 @@
     "startTime": null,
     "latitude": 33.51694,
     "longitude": -86.84596,
-    "source": "https://kubra.io/cluster-data/302/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/03200230203.json"
+    "source": "https://kubra.io/cluster-data/302/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/03200230203.json"
   },
   {
     "id": "2593808751",
@@ -147,22 +162,7 @@
     "startTime": null,
     "latitude": 33.51173,
     "longitude": -86.87016,
-    "source": "https://kubra.io/cluster-data/302/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/03200230203.json"
-  },
-  {
-    "id": "2593808775",
-    "etr": "2022-09-16T12:00:00Z",
-    "etrConfidence": null,
-    "cluster": false,
-    "comments": "We show your power is out at this location. Your estimated repair time is currently Sep 16, 2022, 7:00 AM Central. We are working to identify the problem.",
-    "cause": null,
-    "numberOut": 1,
-    "custAffected": 4,
-    "crewStatus": null,
-    "startTime": null,
-    "latitude": 31.35077,
-    "longitude": -85.85565,
-    "source": "https://kubra.io/cluster-data/102/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/0320201.json"
+    "source": "https://kubra.io/cluster-data/302/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/03200230203.json"
   },
   {
     "id": "2583808655",
@@ -177,6 +177,36 @@
     "startTime": null,
     "latitude": 30.87022,
     "longitude": -87.78603,
-    "source": "https://kubra.io/cluster-data/002/5182a906-9bd4-45db-9507-dd11d2e3ae0c/bd51536a-348d-4945-bed0-4f2edc4a0339/public/cluster-1/0320200.json"
+    "source": "https://kubra.io/cluster-data/002/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320200.json"
+  },
+  {
+    "id": "2593808861",
+    "etr": "2022-09-16T12:30:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "Field personnel are on their way to evaluate the outage in your area. Your estimated repair time for this location is currently Sep 16, 2022, 7:30 AM Central. As the outage is evaluated, this message will be updated.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 29,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 30.70419,
+    "longitude": -88.09183,
+    "source": "https://kubra.io/cluster-data/002/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320200.json"
+  },
+  {
+    "id": "2593808775",
+    "etr": "2022-09-16T12:00:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "We show your power is out at this location. Your estimated repair time is currently Sep 16, 2022, 7:00 AM Central. We are working to identify the problem.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 4,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 31.35077,
+    "longitude": -85.85565,
+    "source": "https://kubra.io/cluster-data/102/5182a906-9bd4-45db-9507-dd11d2e3ae0c/01fe3f40-e82b-4189-8508-ab5c1876f809/public/cluster-1/0320201.json"
   }
 ]
