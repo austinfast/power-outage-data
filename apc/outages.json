@@ -1,35 +1,5 @@
 [
   {
-    "id": "2893846718",
-    "etr": "2022-10-16T11:00:00Z",
-    "etrConfidence": null,
-    "cluster": false,
-    "comments": "A vehicle accident has caused an outage in your area. We are working to restore power as quickly and safely as possible. Your estimated repair time for this location is currently Oct 16, 2022, 6:00 AM Central.",
-    "cause": null,
-    "numberOut": 1,
-    "custAffected": 63,
-    "crewStatus": null,
-    "startTime": null,
-    "latitude": 33.48012,
-    "longitude": -87.16453,
-    "source": "https://kubra.io/cluster-data/320/5182a906-9bd4-45db-9507-dd11d2e3ae0c/59e4cec7-6fc9-4267-9f75-35591668840b/public/cluster-1/0320023.json"
-  },
-  {
-    "id": "2893846717",
-    "etr": "2022-10-16T10:00:00Z",
-    "etrConfidence": null,
-    "cluster": false,
-    "comments": "Field personnel are on site evaluating the outage in your area. The cause of the outage is not yet determined. Your estimated repair time for this location is currently Oct 16, 2022, 5:00 AM Central.",
-    "cause": null,
-    "numberOut": 1,
-    "custAffected": 4,
-    "crewStatus": null,
-    "startTime": null,
-    "latitude": 31.10104,
-    "longitude": -87.07822,
-    "source": "https://kubra.io/cluster-data/102/5182a906-9bd4-45db-9507-dd11d2e3ae0c/59e4cec7-6fc9-4267-9f75-35591668840b/public/cluster-1/0320201.json"
-  },
-  {
     "id": "2843839181",
     "etr": "2022-10-16T17:00:00Z",
     "etrConfidence": null,
@@ -42,6 +12,36 @@
     "startTime": null,
     "latitude": 30.69292,
     "longitude": -88.09138,
-    "source": "https://kubra.io/cluster-data/002/5182a906-9bd4-45db-9507-dd11d2e3ae0c/59e4cec7-6fc9-4267-9f75-35591668840b/public/cluster-1/0320200.json"
+    "source": "https://kubra.io/cluster-data/002/5182a906-9bd4-45db-9507-dd11d2e3ae0c/146ed4a8-5bd9-476f-9393-4faf7c4fe211/public/cluster-1/0320200.json"
+  },
+  {
+    "id": "2893846718",
+    "etr": "2022-10-16T11:00:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "A vehicle accident has caused an outage in your area. We are working to restore power as quickly and safely as possible. Your estimated repair time for this location is currently Oct 16, 2022, 6:00 AM Central.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 63,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 33.48012,
+    "longitude": -87.16453,
+    "source": "https://kubra.io/cluster-data/320/5182a906-9bd4-45db-9507-dd11d2e3ae0c/146ed4a8-5bd9-476f-9393-4faf7c4fe211/public/cluster-1/0320023.json"
+  },
+  {
+    "id": "2893846719",
+    "etr": "2022-10-16T11:00:00Z",
+    "etrConfidence": null,
+    "cluster": false,
+    "comments": "We show your power is out at this location. Your estimated repair time is currently Oct 16, 2022, 6:00 AM Central. We are working to identify the problem.",
+    "cause": null,
+    "numberOut": 1,
+    "custAffected": 4,
+    "crewStatus": null,
+    "startTime": null,
+    "latitude": 33.81474,
+    "longitude": -87.25283,
+    "source": "https://kubra.io/cluster-data/220/5182a906-9bd4-45db-9507-dd11d2e3ae0c/146ed4a8-5bd9-476f-9393-4faf7c4fe211/public/cluster-1/0320022.json"
   }
 ]
